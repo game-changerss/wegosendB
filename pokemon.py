@@ -14,6 +14,7 @@ for i in range(1, n+1):
     dict[a] = i
 
 for i in range(m):
+
     quest = input().rstrip()
     if quest.isdigit():
         print(dict[int(quest)])
