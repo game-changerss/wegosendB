@@ -1,18 +1,18 @@
 import sys
 
-input =sys.stdin.readline
+input = sys.stdin.readline
 
-n,m =map(int,input().split())
+n, m = map(int,input().split())
 
-dict ={}
+dict = {}
 
-for i in range(1,n+1):
-    a=input().rstip()
-    dict[i]=a
-    dict[a]=i
+for i in range(1, n+1):
+    a = input().rstrip()
+    dict[i] = a
+    dict[a] = i
 
 for i in range(m):
-    quest =input().rstrip()
+    quest = input().rstrip()
     if quest.isdigit():
         print(dict[int(quest)])
     else:
