@@ -6,7 +6,7 @@ arr = list(input().rstrip())  # 문자열을 하나의 리스트로 받는것.(l
 
 result = [""] * len(arr) #c++ malloc 으로 생각하면됨
 
-최종커밋
+#최종커밋
 
 def solution(start, arr):
     if not arr:
